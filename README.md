@@ -13,10 +13,10 @@ ranked once shared to the GhostWriterz database, and the app will include a comm
 
 ## Wireframes:
 
-1. [Landing Page]
-2. [Login Page]
-3. [Signup Page]
-4. [Profile Page]
-5. [Find Lyrics Page]
-6. [MyLyrics Page]
-7. [Create Lyrics Page]
+1. [Landing Page](https://jakelthedeveloper.github.io/ghostwriterz-wireframes/wireframes/landing-page.html)
+2. [Login Page](https://jakelthedeveloper.github.io/ghostwriterz-wireframes/wireframes/login-page.html)
+3. [Signup Page](https://jakelthedeveloper.github.io/ghostwriterz-wireframes/wireframes/signup-page.html)
+4. [Profile Page](https://jakelthedeveloper.github.io/ghostwriterz-wireframes/wireframes/profile-page.html)
+5. [Find Lyrics Page](https://jakelthedeveloper.github.io/ghostwriterz-wireframes/wireframes/lyricsdatabase-page.html)
+6. [MyLyrics Page](https://jakelthedeveloper.github.io/ghostwriterz-wireframes/wireframes/mylyrics-page.html)
+7. [Create Lyrics Page](https://jakelthedeveloper.github.io/ghostwriterz-wireframes/wireframes/createlyrics-page.html)
