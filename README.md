@@ -20,3 +20,6 @@ ranked once shared to the GhostWriterz database, and the app will include a comm
 5. [Find Lyrics Page](https://jakelthedeveloper.github.io/ghostwriterz-wireframes/wireframes/lyricsdatabase-page.html)
 6. [MyLyrics Page](https://jakelthedeveloper.github.io/ghostwriterz-wireframes/wireframes/mylyrics-page.html)
 7. [Create Lyrics Page](https://jakelthedeveloper.github.io/ghostwriterz-wireframes/wireframes/createlyrics-page.html)
+
+## KanBan:
+https://trello.com/b/KX51hqWI/ghostwriterz
