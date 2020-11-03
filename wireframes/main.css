@@ -1,0 +1,123 @@
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif;
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color: #aaa;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  header {
+    padding: 45px 15px;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 30px 15px;
+    background-color: #bbb;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+  p {
+   display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  p + p {
+    margin-top: 15px;
+  }
+  
+  ul
+  {
+    display: inline; 
+      vertical-align:middle;
+      list-style-type: none;
+  }
+  
+  #title{
+    font-size: 18px;
+    color: red;
+  }
+
+.lyrics_list {
+    animation-delay: .9s;
+}
+
+.lyrics {
+    background: gray;
+    color: #eee;
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem 2rem;
+}
+.lyrics_title {
+    font-weight: 600;
+}
+.lyrics-mood {
+    font-size:large;
+    font-weight: 100;
+}
+.lyrics-creator {
+    font-size: large;
+    font-weight: 100;
+}
+.lyrics-rank {
+    font-size: large;
+    font-weight: 100;
+}
+.lyrics-genre {
+    font-size: large;
+    font-weight: 100;
+}
+.lyrics_header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.lyrics_info-container>div {
+    width: 15rem;
+}
+.lyrics_info-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 57rem;
+}
+.lyrics_entry {
+    padding: 2rem 4rem;
+    display:inline-flex;
+}
+.rate{
+    display: inline-flex;
+}
+
+  div{
+      display:block;
+  }

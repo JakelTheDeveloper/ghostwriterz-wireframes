@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>HTML wireframe</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+      <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+
+  <body>
+    <nav role="navigation">
+        <button type="sign-out" id="sign-out-btn">Sign Out</button>
+    </nav>
+    <main role="main">
+      <header role="banner">
+        <h1>GhostWriterz</h1>
+      </header>
+      <section>
+        <header>
+            <h3>Create New Lyrics</h3>
+            <form>
+                <label for ="title">Enter a title:</label>
+                <input type="text" id ="title"/>
+                <label for="genre">Select a genre: </label>
+                <select id="genre">
+                    <option value="" selected>All</option>
+                    <option value="1">Hip Hop</option>
+                    <option value="2">Pop</option>
+                    <option value="3">Rock</option>
+                    <option value="4">Jazz</option>
+                    <option value="5">Folk</option>
+                    <option value="6">Musical</option>
+                    <option value="7">Country</option>
+                    <option value="8">Classical</option>
+                    <option value="9">Heavy Metal</option>
+                    <option value="10">Rhythm & Blues</option>
+                    <option value="11">Electronic Dance</option>
+                    <option value="12">Punk</option>
+                    <option value="13">Soul</option>
+                    <option value="14">Electronic Music</option>
+                    <option value="15">Rap</option>
+                    <option value="16">Reggae</option>
+                    <option value="17">Funk</option>
+                    <option value="18">Disco</option>
+                    <option value="19">House</option>
+                    <option value="20">Techno</option>
+                    <option value="21">Gospel</option>
+                    <option value="2">Electronic Music</option>
+                </select>
+            <form id="mood-form">
+                <label for="mood">Select a mood: </label>
+                <select id="mood">
+                    <option value="" selected>All</option>
+                    <option value="1">Happy</option>
+                    <option value="2">Energetic</option>
+                    <option value="3">Sad</option>
+                    <option value="4">Calm</option>
+                    <option value="5">Depression</option>
+                    <option value="6">Anger</option>
+                    <option value="7">Carefree</option>
+                    <option value="8">Gloomy</option>
+                    <option value="14">Annoyed</option>
+                </select>
+                <br>
+                <label for ="lyrics">Enter Lyrics:</label>
+                <textarea id ="lyrics"></textarea>
+                <br>
+                <button type="save">Save</button>
+                <button type="saveshare">Save & Share</button>
+                <button type="cancel">Cancel</button>
+            </form>
+            </form>
+            
+        </header>
+
+      </section>
+    </main>
+    <footer role="content-info">Developed By Ja'Kel Jenkins</footer>
+  </body>
+
+</html>
